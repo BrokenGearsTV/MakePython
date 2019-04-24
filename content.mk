@@ -26,10 +26,9 @@ MK_CFLAGS = -Wall -Werror \
             -Wendif-labels -Wformat -Wformat-extra-args \
             -Wformat-y2k -Wimplicit -Wimplicit-function-declaration
 
-UTIL = /root/src/github.com/BrokenGearsTV/Software-ontwikkeling/source/main.h
+UTIL = /root/src/github.com/BrokenGearsTV/Software-ontwikkeling/source/main.c
 
-CH_COMMON = $(UTIL) \
-            /root/src/github.com/BrokenGearsTV/Software-ontwikkeling/source/main.c
+CH_COMMON = $(UTIL)
 
 PF_LDSO = -L$(build_dir) -lch-pf
 

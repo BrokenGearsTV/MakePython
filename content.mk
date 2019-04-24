@@ -26,7 +26,7 @@ MK_CFLAGS = -Wall -Werror \
             -Wendif-labels -Wformat -Wformat-extra-args \
             -Wformat-y2k -Wimplicit -Wimplicit-function-declaration
 
-UTIL = /root/src/github.com/BrokenGearsTV/Software-ontwikkeling/source/main.c
+UTIL = /root/src/github.com/BrokenGearsTV/Software-ontwikkeling/main.c
 
 CH_COMMON = $(UTIL)
 
